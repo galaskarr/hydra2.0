@@ -7,8 +7,9 @@ FUNCTION zmf_util_arq_dwnl_arquivo_txt.
 *"     REFERENCE(ET_ARQUIVO)
 *"----------------------------------------------------------------------
 
-  WRITE: / 'Implementação de download de txt: alternativa 002'.
+  WRITE: / 'Implementação de download de txt: alternativa 001'.
   WRITE: / 'Implementação de download de txt: incremento  AAA'.
-  WRITE: / 'Implementação de download de txt: incremento  ABA'.
+  WRITE: / 'Implementação de download de txt: incremento  AAB'.
+  WRITE: / 'Implementação de download de txt: incremento  ABB'.
 
 ENDFUNCTION.
