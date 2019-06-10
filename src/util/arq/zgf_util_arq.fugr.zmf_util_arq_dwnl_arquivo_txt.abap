@@ -1,4 +1,4 @@
-FUNCTION ZMF_UTIL_ARQ_DWNL_ARQUIVO_TXT.
+FUNCTION zmf_util_arq_dwnl_arquivo_txt.
 *"----------------------------------------------------------------------
 *"*"Local Interface:
 *"  IMPORTING
@@ -7,5 +7,8 @@ FUNCTION ZMF_UTIL_ARQ_DWNL_ARQUIVO_TXT.
 *"     REFERENCE(ET_ARQUIVO)
 *"----------------------------------------------------------------------
 
+  WRITE: / 'Implementação de download de txt: alternativa 002'.
+  WRITE: / 'Implementação de download de txt: incremento  AAA'.
+  WRITE: / 'Implementação de download de txt: incremento  ABA'.
 
 ENDFUNCTION.
