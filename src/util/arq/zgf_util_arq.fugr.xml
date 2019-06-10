@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Manipulação de arquivos</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZGF_UTIL_ARQTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZGF_UTIL_ARQ</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMF_UTIL_ARQ_DWNL_ARQUIVO_TXT</FUNCNAME>
+     <SHORT_TEXT>Função para executar o download de arq. txt</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_CAMINHO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_ARQUIVO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_CAMINHO</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ARQUIVO</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZMF_UTIL_ARQ_DWNL_ARQUIVO_XML</FUNCNAME>
+     <SHORT_TEXT>Função para executar o download de arquivo xml</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_CAMINHO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_ARQUIVO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_CAMINHO</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_ARQUIVO</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
