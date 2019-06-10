@@ -8,5 +8,6 @@ FUNCTION zmf_util_arq_dwnl_arquivo_txt.
 *"----------------------------------------------------------------------
 
   WRITE: / 'Implementação de download de txt: alternativa 001'.
+  WRITE: / 'Implementação de download de txt: incremento  AAA'.
 
 ENDFUNCTION.
