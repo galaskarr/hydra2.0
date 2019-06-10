@@ -11,5 +11,6 @@ FUNCTION zmf_util_arq_dwnl_arquivo_txt.
   WRITE: / 'Implementação de download de txt: incremento  AAA'.
   WRITE: / 'Implementação de download de txt: incremento  AAB'.
   WRITE: / 'Implementação de download de txt: incremento  ABB'.
+  WRITE: / 'Implementação de download de txt: incremento  ABC'.
 
 ENDFUNCTION.
